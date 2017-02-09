@@ -1,10 +1,25 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="Style.css">
 <html>
   <head>
-    <title> Hello! </title>
+    <title> CFAAC Classifieds </title>
   </head> 
-  <body>
-  
-    <h1> Hello World! </h1>
-    
+  <body> 
+	<img id="logo" src="http://aacopubliclibrary.net/sites/default/files/research-learn/communityfoundationaaco.png" height="30%" width="30%"/>
+	<ul>
+		<li class="active"><a href="index.html">Home</a></li>
+		<li><a href="index.html">Catalogue</a></li>
+		<li><a href="index.html">Requests</a></li>
+		<li><a href="index.html">About Us</a></li>
+		<li><a href="index.html">Contact Us</a></li>
+	</ul>
+    <h1> Welcome! </h1>
+	<div id="bodypar">
+		<p> Are you a nonprofit or government organization looking for things like office supplies (desks, chairs, tables, refrigerator) other items that individuals and businesses may have on hand and are looking for an appreciative home?  Want to make an in-kind donation? Search for items needed and available by nonprofit and government organizations. Anyone can post free items they have available. <br> <br> Looking for volunteers or volunteer opportunities? Go to the Anne Arundel County Volunteer Center at  <a href="http://www.aacvc.org/"> www.aacvc.org </a> <br> <br> Please do NOT post volunteer needs or availability. Please do NOT post requests for financial donations. <br> <br> To post items to give or request, you must be signed in as an Organization Administrator, Organization Author, or trusted user. Please <a href = "login.html"> Sign in</a> or <a href = "register.html">register</a>. Visit our <a href = "contact.html">Contact</a> page for more information. <br> <br>
+    </div>
+	<div>
+		<img src="http://s7d4.scene7.com/is/image/roomandboard/?layer=0&size=498,400&scl=1&src=169822_wood_C&layer=comp&$prodzoom0$" height="45%" width="45%"/>
+		<img src="http://scene7.targetimg1.com/is/image/Target/50079222?wid=360&hei=360&qlt=80&fmt=pjpeg" height="45%" width="45%"/>
+		<img src="http://www.gadgetreview.com/wp-content/uploads/2014/08/refrigerator-reviews.jpg" height="45%" width="45%"/>
+	</div>
   </body>
