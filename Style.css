@@ -1,3 +1,6 @@
+* {
+	font-family: Verdana;
+}
 #logo {
 	display: inline-block;
 }
@@ -27,4 +30,14 @@ li a:hover {
 
 .active {
     background-color: #25a2a6;
+}
+
+#bodypar {
+	width:700px;
+	display: inline-block;
+}
+
+div {
+	display: inline-block;
+	width: 300px;
 }
