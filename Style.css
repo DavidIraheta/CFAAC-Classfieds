@@ -88,7 +88,6 @@ li.dropdown {
 form {
     border: 3px solid #f1f1f1;
 }
-
 /* Full-width inputs */
 input[type=text], input[type=password] {
     width: 100%;
@@ -98,7 +97,6 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
 /* Set a style for all buttons */
 button {
     background-color: #4CAF50;
@@ -109,7 +107,6 @@ button {
     cursor: pointer;
     width: 100%;
 }
-
 /* Extra style for the cancel button (red) */
 .cancelbtn {
     width: auto;
@@ -122,24 +119,20 @@ button {
     text-align: center;
     margin: 24px 0 12px 0;
 }
-
 /* Avatar image */
 img.avatar {
     width: 40%;
     border-radius: 50%;
 }
-
 /* Add padding to containers */
 .container {
     padding: 16px;
 }
-
 /* The "Forgot password" text */
 span.psw {
     float: right;
     padding-top: 16px;
 }
-
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
@@ -152,7 +145,9 @@ span.psw {
 }
 /*End Login*/
 
-
+.header{
+	font: Verdana;
+}
 
 
 /*Sign Up*/
@@ -165,7 +160,6 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
 /* Set a style for all buttons */
 button {
     background-color: #4CAF50;
@@ -176,31 +170,26 @@ button {
     cursor: pointer;
     width: 100%;
 }
-
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }
-
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,.signupbtn {
     float: left;
     width: 50%;
 }
-
 /* Add padding to container elements */
 .container {
     padding: 16px;
 }
-
 /* Clear floats */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
