@@ -16,6 +16,10 @@ li {
     float: left;
 }
 
+#login {
+	float: right;
+}
+
 li a {
     display: inline-block;
     color: white;
