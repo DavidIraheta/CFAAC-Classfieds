@@ -191,6 +191,7 @@ button {
     }
 }
 /*End Sign Up*/
+
 /*Catalog table settings*/
 table {
 	border-collapse: collapse;
@@ -209,3 +210,12 @@ td:hover{
 h3 a{
 	text-decoration: none;
 }
+
+/*Contact page*/
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+/*End Contact*/
