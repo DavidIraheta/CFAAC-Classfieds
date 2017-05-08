@@ -1,0 +1,50 @@
+<body>
+	<a href="index.html">
+		<img id="logo" src="https://www.acaac.org/wp-content/uploads/2013/09/COMMUNIITY-FOUNDATION-OF-ANNE-ARUNDEL-COUNTY-LOGO-JULY-2016.jpg" height="30%" width="30%"/>
+	</a>
+	{{> loginButtons}}
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li class="dropdown" id="active">
+			<a href="catalog.html" class="dropbtn">Catalog</a>
+			<div class="dropdown-content">
+				<a href="inv_give.html">Chairs</a>
+				<a href="inv_give.html">Table</a>
+				<a href="inv_give.html">Couches</a>
+				<a href="inv_give.html">Lamps</a>
+				<a href="inv_give.html">Appliances</a>
+				<a href="inv_give.html">Office supplies</a>
+				<a href="inv_give.html">Lounge Items</a>
+				<a href="inv_give.html">Misc.</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="requests.html" class="dropbtn">Requests</a>
+			<div class="dropdown-content">
+				<a href="inv_take.html">Chairs</a>
+				<a href="inv_take.html">Table</a>
+				<a href="inv_take.html">Couches</a>
+				<a href="inv_take.html">Lamps</a>
+				<a href="inv_take.html">Appliances</a>
+				<a href="inv_take.html">Office supplies</a>
+				<a href="inv_take.html">Lounge Items</a>
+				<a href="inv_take.html">Misc.</a>
+			</div>
+		</li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	{{#if currentUser}}
+        <form class="new-task">
+		<input type="text" name="text" placeholder="Type to add new tasks" />
+        </form>
+	{{/if}}
+	<h1> Catalog </h1>
+	<table>
+      		{{#each tasks}}
+		<tr>
+			<td>{{> task}}</td>
+		</tr>
+      	    	{{/each}}
+    	        </table>
+ </body>
