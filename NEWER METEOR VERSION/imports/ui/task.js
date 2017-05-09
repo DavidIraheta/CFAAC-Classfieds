@@ -3,12 +3,14 @@ import { Template } from 'meteor/templating';
 
 import './task.html';
 
+//Tracks who created what
 Template.task.helpers({
   isOwner() {
     return this.owner === Meteor.userId();
   },
 });
 
+//Allows for checking, privating, and deleting tasks from the home page
 Template.task.events({
   'click .toggle-checked'() {
     // Set the checked property to the opposite of its current value
