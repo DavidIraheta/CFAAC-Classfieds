@@ -1,11 +1,17 @@
 * {
+	/* Standard font for CFAAC websites */
 	font-family: Verdana;
 }
 #logo {
 	display: inline-block;
 }
+
+/* used for testing */
 #test {
 }
+
+/* Nav bar */
+/* All colors used are the standard used on CFAAC websites */
 ul {
     list-style-type: none;
     margin: 0;
@@ -18,10 +24,12 @@ li {
     float: left;
 }
 
+/* For BOTH login and register buttons */
 #login {
 	float: right;
 }
 
+/* Navbar continued... */
 li a {
     display: inline-block;
     color: white;
@@ -47,6 +55,7 @@ div {
 	display: inline-block;
 	width: 300px;
 }
+/* Dropdown buttons for catalog and requests */
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -85,7 +94,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+/* end of navbar styling */
 
 
 
