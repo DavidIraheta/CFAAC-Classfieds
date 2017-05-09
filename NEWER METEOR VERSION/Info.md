@@ -1,0 +1,1 @@
+This meteor project is based off the "todo list" tutorial from the meteor website, with minimal integration with our own website. Please go to https://www.meteor.com/tutorials/blaze/creating-an-app for reference on this project.
