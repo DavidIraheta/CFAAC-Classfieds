@@ -2,6 +2,7 @@
 	<a href="index.html">
 		<img id="logo" src="https://www.acaac.org/wp-content/uploads/2013/09/COMMUNIITY-FOUNDATION-OF-ANNE-ARUNDEL-COUNTY-LOGO-JULY-2016.jpg" height="30%" width="30%"/>
 	</a>
+	<!-- Used to show built-in login button Meteor provides --> 
 	{{> loginButtons}}
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -34,6 +35,7 @@
 		<li><a href="about.html">About Us</a></li>
 		<li><a href="contact.html">Contact Us</a></li>
 	</ul>
+	<!-- Used to see if the user is logged in, as only users should be able to enter new listings -->
 	{{#if currentUser}}
         <form class="new-task">
 		<input type="text" name="text" placeholder="Type to add new tasks" />
@@ -41,6 +43,7 @@
 	{{/if}}
 	<h1> Catalog </h1>
 	<table>
+		<!-- "tasks" displays various items from the database collection -->
       		{{#each tasks}}
 		<tr>
 			<td>{{> task}}</td>
