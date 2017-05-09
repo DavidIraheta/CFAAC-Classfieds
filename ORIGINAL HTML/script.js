@@ -1,3 +1,4 @@
+//Originally meant to be used to intergrate a database using excel (that's what the excel files in this directory were used for), but many errors occured when doing so. Use at your own risk
 function data(row, col)
 {
     var Excel;
